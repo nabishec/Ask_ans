@@ -1,0 +1,15 @@
+// этот файл для создания проекта с подключением библиотеки райлиб в убунту
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gcc main.c -o main -lraylib",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
