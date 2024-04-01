@@ -16,21 +16,21 @@
 
 Откройте терминал и выполните следующие команды:
 
-sudo apt-get update
+```sudo apt-get update```
 
-sudo apt-get install build-essential git libasound2-dev libx11-dev libxrandr-dev libxi-dev libgl1-mesa-dev libglu1-mesa-dev
+```sudo apt-get install build-essential git libasound2-dev libx11-dev libxrandr-dev libxi-dev libgl1-mesa-dev libglu1-mesa-dev```
 
 Затем склонируйте репозиторий raylib и перейдите в его каталог:
 
-git clone https://github.com/raysan5/raylib.git
+```git clone https://github.com/raysan5/raylib.git```
 
-cd raylib/src
+```cd raylib/src```
 
 Соберите и установите библиотеку:
 
-make PLATFORM=PLATFORM_DESKTOP
+```make PLATFORM=PLATFORM_DESKTOP```
 
-sudo make install
+```sudo make install```
 
 Шаг 2: Cкачайте зип файл и распакуйте его в пустой каталог,используя vscode,чтоб открыть этот каталог как проект. Затем измените файл таскс на тот который был в зипке
 
